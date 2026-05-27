@@ -1,0 +1,24 @@
+--cpu Cortex-M3
+"base_on_regiser\startup_stm32f103xb.o"
+"base_on_regiser\main.o"
+"base_on_regiser\gpio.o"
+"base_on_regiser\stm32f1xx_it.o"
+"base_on_regiser\stm32f1xx_hal_msp.o"
+"base_on_regiser\stm32f1xx_hal_gpio_ex.o"
+"base_on_regiser\stm32f1xx_hal_tim.o"
+"base_on_regiser\stm32f1xx_hal_tim_ex.o"
+"base_on_regiser\stm32f1xx_hal.o"
+"base_on_regiser\stm32f1xx_hal_rcc.o"
+"base_on_regiser\stm32f1xx_hal_rcc_ex.o"
+"base_on_regiser\stm32f1xx_hal_gpio.o"
+"base_on_regiser\stm32f1xx_hal_dma.o"
+"base_on_regiser\stm32f1xx_hal_cortex.o"
+"base_on_regiser\stm32f1xx_hal_pwr.o"
+"base_on_regiser\stm32f1xx_hal_flash.o"
+"base_on_regiser\stm32f1xx_hal_flash_ex.o"
+"base_on_regiser\stm32f1xx_hal_exti.o"
+"base_on_regiser\system_stm32f1xx.o"
+--strict --scatter "base_on_regiser\base_on_regiser.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "base_on_regiser.map" -o base_on_regiser\base_on_regiser.axf
