@@ -497,6 +497,48 @@
         </Group>
         <Group>
           <GroupName>my_regiser</GroupName>
+          <Files>
+            <File>
+              <FileName>my_gpio.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\my_regiser\my_gpio.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_gpio.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\my_regiser\my_gpio.h</FilePath>
+            </File>
+            <File>
+              <FileName>my_uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\my_regiser\my_uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_uart.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\my_regiser\my_uart.h</FilePath>
+            </File>
+            <File>
+              <FileName>my_iic.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\my_regiser\my_iic.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_iic.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\my_regiser\my_iic.h</FilePath>
+            </File>
+            <File>
+              <FileName>my_regiser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\my_regiser\my_regiser.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_regiser.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\my_regiser\my_regiser.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>hardware</GroupName>

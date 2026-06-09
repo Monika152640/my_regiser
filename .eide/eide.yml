@@ -49,7 +49,15 @@ virtualFolder:
             - path: ../Core/Src/system_stm32f1xx.c
           folders: []
     - name: my_regiser
-      files: []
+      files:
+        - path: ../my_regiser/my_gpio.c
+        - path: ../my_regiser/my_gpio.h
+        - path: ../my_regiser/my_iic.c
+        - path: ../my_regiser/my_iic.h
+        - path: ../my_regiser/my_uart.c
+        - path: ../my_regiser/my_uart.h
+        - path: ../my_regiser/my_regiser.c
+        - path: ../my_regiser/my_regiser.h
       folders: []
     - name: hardware
       files: []
@@ -194,4 +202,14 @@ targets:
         otherCmds: ""
         proType: 1
         speed: 8000
-    uploader: JLink
+      STLink:
+        address: "0x8000000"
+        bin: ""
+        elFile: None
+        optionBytes: .eide/base_on_regiser.st.option.bytes.ini
+        otherCmds: ""
+        proType: SWD
+        resetMode: default
+        runAfterProgram: true
+        speed: 4000
+    uploader: STLink

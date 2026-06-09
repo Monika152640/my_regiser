@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "STM32F103",
+            "includePath": [
+                "${workspaceFolder}/../Core/Inc",
+                "${workspaceFolder}/../Drivers/STM32F1xx_HAL_Driver/Inc",
+                "${workspaceFolder}/../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/../Drivers/CMSIS/Device/ST/STM32F1xx/Include",
+                "${workspaceFolder}/../Drivers/CMSIS/Include",
+                "${workspaceFolder}/../my_regiser",
+                "${workspaceFolder}/../hardware",
+                "${workspaceFolder}/.cmsis/include",
+                "${workspaceFolder}/RTE/_base_on_regiser"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F103xB",
+                "__CC_ARM"
+            ],
+            "compilerPath": "",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+}

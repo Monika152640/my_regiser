@@ -1,7 +1,7 @@
 Dependencies for Project 'base_on_regiser', Target 'base_on_regiser': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
 F (startup_stm32f103xb.s)(0x6A16A86D)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f103xb.lst --xref -o base_on_regiser\startup_stm32f103xb.o --depend base_on_regiser\startup_stm32f103xb.d)
-F (../Core/Src/main.c)(0x6A16A86A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\my_regiser -I ..\hardware-I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o base_on_regiser\main.o --omf_browse base_on_regiser\main.crf --depend base_on_regiser\main.d)
+F (../Core/Src/main.c)(0x6A27FC8C)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\my_regiser -I ..\hardware-I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o base_on_regiser\main.o --omf_browse base_on_regiser\main.crf --depend base_on_regiser\main.d)
 I (../Core/Inc/main.h)(0x6A16A86A)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x69BD1615)
 I (../Core/Inc/stm32f1xx_hal_conf.h)(0x6A16A86A)
@@ -28,6 +28,9 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69BD1615)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69BD1615)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69BD1615)
 I (../Core/Inc/gpio.h)(0x6A16A869)
+I (..\my_regiser\my_uart.h)(0x6A215B92)
+I (..\my_regiser\my_regiser.h)(0x6A215C7C)
+I (..\my_regiser\my_gpio.h)(0x6A1AF431)
 F (../Core/Src/gpio.c)(0x6A16A869)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\my_regiser -I ..\hardware-I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o base_on_regiser\gpio.o --omf_browse base_on_regiser\gpio.crf --depend base_on_regiser\gpio.d)
 I (../Core/Inc/gpio.h)(0x6A16A869)
 I (../Core/Inc/main.h)(0x6A16A86A)
@@ -458,3 +461,18 @@ I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x69BD1615)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x69BD1615)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x69BD1615)
 I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x69BD1615)
+F (..\my_regiser\my_gpio.c)(0x6A215BCE)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\my_regiser -I ..\hardware-I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o base_on_regiser\my_gpio.o --omf_browse base_on_regiser\my_gpio.crf --depend base_on_regiser\my_gpio.d)
+I (..\my_regiser\my_gpio.h)(0x6A1AF431)
+I (..\my_regiser\my_regiser.h)(0x6A215C7C)
+I (E:\keilInstaller\ARM\ARMCC\include\stdint.h)(0x6025237E)
+F (..\my_regiser\my_gpio.h)(0x6A1AF431)()
+F (..\my_regiser\my_uart.c)(0x6A215DBE)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\my_regiser -I ..\hardware-I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o base_on_regiser\my_uart.o --omf_browse base_on_regiser\my_uart.crf --depend base_on_regiser\my_uart.d)
+I (..\my_regiser\my_uart.h)(0x6A215B92)
+I (..\my_regiser\my_regiser.h)(0x6A215C7C)
+I (E:\keilInstaller\ARM\ARMCC\include\stdint.h)(0x6025237E)
+I (E:\keilInstaller\ARM\ARMCC\include\stddef.h)(0x6025237E)
+F (..\my_regiser\my_uart.h)(0x6A215B92)()
+F (..\my_regiser\my_iic.c)(0x6A16BA0A)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\my_regiser -I ..\hardware-I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o base_on_regiser\my_iic.o --omf_browse base_on_regiser\my_iic.crf --depend base_on_regiser\my_iic.d)
+F (..\my_regiser\my_iic.h)(0x6A181A21)()
+F (..\my_regiser\my_regiser.c)(0x6A181948)(--c99 -c --cpu Cortex-M3 -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\my_regiser -I ..\hardware-I.\RTE\_base_on_regiser-IE:\keilInstaller\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IE:\keilInstaller\Keil\STM32F1xx_DFP\2.2.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F10X_MD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xB-o base_on_regiser\my_regiser.o --omf_browse base_on_regiser\my_regiser.crf --depend base_on_regiser\my_regiser.d)
+F (..\my_regiser\my_regiser.h)(0x6A215C7C)()
