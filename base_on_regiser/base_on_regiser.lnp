@@ -22,7 +22,7 @@
 "base_on_regiser\my_uart.o"
 "base_on_regiser\my_iic.o"
 "base_on_regiser\my_regiser.o"
---strict --scatter "base_on_regiser\base_on_regiser.sct"
+--library_type=microlib --strict --scatter "base_on_regiser\base_on_regiser.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "base_on_regiser.map" -o base_on_regiser\base_on_regiser.axf
