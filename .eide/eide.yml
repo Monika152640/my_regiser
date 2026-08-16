@@ -58,9 +58,19 @@ virtualFolder:
         - path: ../my_regiser/my_uart.h
         - path: ../my_regiser/my_regiser.c
         - path: ../my_regiser/my_regiser.h
+        - path: ../my_regiser/my_spi.c
+        - path: ../my_regiser/stm32_all.h
+        - path: ../my_regiser/my_spi.h
       folders: []
     - name: hardware
-      files: []
+      files:
+        - path: ../hardware/IMU660RA.c
+        - path: ../hardware/IMU660RA.h
+        - path: ../hardware/IMU660RA_config.c
+        - path: ../hardware/IMU660RA_config.h
+        - path: ../hardware/OLED.c
+        - path: ../hardware/OLED.h
+        - path: ../hardware/OLED_Font.h
       folders: []
     - name: ::CMSIS
       files: []

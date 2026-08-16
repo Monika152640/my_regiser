@@ -22,6 +22,10 @@
 "base_on_regiser\my_uart.o"
 "base_on_regiser\my_iic.o"
 "base_on_regiser\my_regiser.o"
+"base_on_regiser\my_spi.o"
+"base_on_regiser\imu660ra.o"
+"base_on_regiser\imu660ra_config.o"
+"base_on_regiser\oled.o"
 --library_type=microlib --strict --scatter "base_on_regiser\base_on_regiser.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

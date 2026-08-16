@@ -22,12 +22,35 @@ Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
 C:\Users\28302\Desktop\elel\HAL_project_using_example\9.RTOS_DEMO\base_on_regiser\MDK-ARM\base_on_regiser.uvprojx
-Project File Date:  06/10/2026
+Project File Date:  07/19/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'E:\keilInstaller\ARM\ARMCC\Bin'
 Build target 'base_on_regiser'
-"base_on_regiser\base_on_regiser.axf" - 0 Error(s), 0 Warning(s).
+compiling IMU660RA.c...
+..\hardware\IMU660RA.h(71): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\hardware\IMU660RA.c(6): warning:  #177-D: function "imu660ra_write_register"  was declared but never referenced
+  static void imu660ra_write_register(uint8_t reg, uint8_t dat)
+..\hardware\IMU660RA.c(11): warning:  #177-D: function "imu660ra_write_registers"  was declared but never referenced
+  static void imu660ra_write_registers(uint8_t reg, const uint8_t *dat, uint32_t len)
+..\hardware\IMU660RA.c(16): warning:  #177-D: function "imu660ra_read_register"  was declared but never referenced
+  static uint8_t imu660ra_read_register(uint8_t reg)
+..\hardware\IMU660RA.c(21): warning:  #177-D: function "imu660ra_read_registers"  was declared but never referenced
+  static void imu660ra_read_registers(uint8_t reg, uint8_t *dat, uint32_t len)
+..\hardware\IMU660RA.c: 5 warnings, 0 errors
+compiling my_iic.c...
+compiling OLED.c...
+compiling main.c...
+linking...
+base_on_regiser\base_on_regiser.axf: Error: L6218E: Undefined symbol My_IIC_Init (referred from oled.o).
+base_on_regiser\base_on_regiser.axf: Error: L6218E: Undefined symbol My_hw_I2C_SendByte (referred from oled.o).
+base_on_regiser\base_on_regiser.axf: Error: L6218E: Undefined symbol My_hw_I2C_Start (referred from oled.o).
+base_on_regiser\base_on_regiser.axf: Error: L6218E: Undefined symbol My_hw_I2C_Stop (referred from oled.o).
+Not enough information to list image symbols.
+Not enough information to list load addresses in the image map.
+Finished: 2 information, 0 warning and 4 error messages.
+"base_on_regiser\base_on_regiser.axf" - 4 Error(s), 5 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -51,7 +74,8 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.5.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:00
+Target not created.
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

@@ -538,10 +538,62 @@
               <FileType>5</FileType>
               <FilePath>..\my_regiser\my_regiser.h</FilePath>
             </File>
+            <File>
+              <FileName>my_spi.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\my_regiser\my_spi.c</FilePath>
+            </File>
+            <File>
+              <FileName>my_spi.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\my_spi.h</FilePath>
+            </File>
+            <File>
+              <FileName>stm32_all.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\my_regiser\stm32_all.h</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
           <GroupName>hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>IMU660RA.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\IMU660RA.c</FilePath>
+            </File>
+            <File>
+              <FileName>IMU660RA.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\IMU660RA.h</FilePath>
+            </File>
+            <File>
+              <FileName>IMU660RA_config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\IMU660RA_config.c</FilePath>
+            </File>
+            <File>
+              <FileName>IMU660RA_config.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\IMU660RA_config.h</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\hardware\OLED.c</FilePath>
+            </File>
+            <File>
+              <FileName>OLED.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\OLED.h</FilePath>
+            </File>
+            <File>
+              <FileName>OLED_Font.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\hardware\OLED_Font.h</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>::CMSIS</GroupName>

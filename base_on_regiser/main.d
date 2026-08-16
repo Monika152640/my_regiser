@@ -28,5 +28,7 @@ base_on_regiser\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
 base_on_regiser\main.o: ../Core/Inc/gpio.h
 base_on_regiser\main.o: ../my_regiser/my_uart.h
 base_on_regiser\main.o: ../my_regiser/my_regiser.h
-base_on_regiser\main.o: ../my_regiser/my_gpio.h
 base_on_regiser\main.o: E:\keilInstaller\ARM\ARMCC\Bin\..\include\stdio.h
+base_on_regiser\main.o: ../hardware/OLED.h
+base_on_regiser\main.o: ../my_regiser/my_iic.h
+base_on_regiser\main.o: ../my_regiser/my_gpio.h

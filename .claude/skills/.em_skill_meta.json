@@ -1,0 +1,14 @@
+{
+  "source": "embed-ai-tool",
+  "version": "7684d0e",
+  "installed_at": "2026-07-08T11:20:30.345778+00:00",
+  "skills": [
+    "build-keil",
+    "debug-gdb-openocd",
+    "flash-keil",
+    "memory-analysis",
+    "serial-monitor",
+    "static-analysis",
+    "workflow"
+  ]
+}
